@@ -1,20 +1,16 @@
-# Drop Duchy Fan Hub
+# Cash Cleaner Simulator Fan Hub
 
-> A fan-made website dedicated to the innovative puzzle roguelike strategy game, Drop Duchy (2025). This site offers information on gameplay, features, updates, community discussions, and links to other Tetris-like games.
+> This website is a comprehensive fan-made hub for the game Cash Cleaner Simulator. It provides players with game guides, download information, news updates, and community links. The content is designed to help players master the game and connect with other fans.
 
-This website aims to be a comprehensive resource for players and fans of Drop Duchy. Explore detailed guides, stay updated with the latest news, and engage with the community.
+This site aims to be a central resource for all things Cash Cleaner Simulator. Key information is structured for easy access by both humans and Language Models. For LLMs, please refer to the linked Markdown versions of our main pages for concise, structured content.
 
-## Main Navigation
+## Main Pages
 
-- [Home](https://dropduchy.org/index.html): Overview of Drop Duchy, key features, and community highlights.
-- [Wiki](https://dropduchy.org/wiki.html): In-depth information about game mechanics, cards, factions, biomes, and more.
-- [Download](https://dropduchy.org/drop-duchy-download.html): Information on where to download the Drop Duchy game (links to official sources).
-- [Updates](https://dropduchy.org/update.html): Fan-curated log of game updates, patch notes, and developer insights.
-- [Blog](https://dropduchy.org/blog.html): Blog posts discussing game strategies, news, and deeper dives into specific aspects of Drop Duchy.
-- [More Tetris](https://dropduchy.org/more-tetris.html): A curated list of other Tetris-like games for fans of the genre.
+- [Homepage](https://cashcleanerSimulator.org/index.html.md): Overview of the game, key features, and latest community buzz.
+- [Game Guide](https://cashcleanerSimulator.org/game_guide.html.md): In-depth guide covering game mechanics, strategies, tools, and FAQs.
+- [Download Page](https://cashcleanerSimulator.org/cash-cleaner-simulator-download.html.md): Information on how and where to download Cash Cleaner Simulator.
+- [Updates & News](https://cashcleanerSimulator.org/update.html.md): Latest news, patch notes, and updates related to the game.
 
-## Blog Posts
+## Optional
 
-- [Combat Guide](https://dropduchy.org/blog-post-combat-guide.html): A detailed guide to mastering combat in Drop Duchy.
-- [Deep Dive into Drop Duchy](https://dropduchy.org/blog-post-deep-dive-into-drop-duchy.html): Exploring core gameplay, unique features, and strategy.
-- [Launch Success](https://dropduchy.org/blog-post-launch-success.html): Player reactions and positive reviews following the game's launch. 
+- [Community Links](https://cashcleanerSimulator.org/index.html.md#community-section): Links to official and fan community platforms (Note: This would ideally point to a specific section within the index.html.md if that file contained deep links, or a separate community.html.md). 
