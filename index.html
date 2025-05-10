@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Cash Cleaner Simulator: Clean, Sort, & Stack Your Way to Riches (2025)</title>
+    <meta name="description" content="The official fan hub for Cash Cleaner Simulator! Dive into the satisfying world of money laundering, discover game features, latest news, tips, and get your copy on Steam."/>
+    <meta name="keywords" content="cash cleaner simulator, simulation game, indie game, money laundering, physics game, job simulator, singleplayer, Forklift Interactive"/>
+    <link rel="canonical" href="https://cashcleanerSimulator.org/index.html"/>
+    <meta property="og:title" content="Cash Cleaner Simulator - Official Hub for the Ultimate Money Cleaning Experience (2025)"/>
+    <meta property="og:description" content="Welcome to the official community hub for Cash Cleaner Simulator! Get the latest news, learn about gameplay mechanics, tools of the trade, and connect with other cleaners."/>
+    <meta property="og:url" content="https://cashcleanerSimulator.org/index.html"/>
+    <meta property="og:image" content="images/ccs_opengraph.png"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:creator" content="@CashCleanerGame"/>
+    <meta name="twitter:title" content="Cash Cleaner Simulator - Clean Up Your Act!"/>
+    <meta name="twitter:description" content="Your official source for all things Cash Cleaner Simulator. News, gameplay info, and community!"/>
+    <meta name="twitter:image" content="images/ccs_opengraph.png"/>
+    <link rel="icon" href="images/ccs_favicon.ico" type="image/x-icon" sizes="48x48"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Basic theme switcher (mimicking original)
+        ((e,t,r,n,o,l,a,i)=>{let u=document.documentElement,s=["light","dark"];function c(t){(Array.isArray(e)?e:[e]).forEach(e=>{let r="class"===e,n=r&&l?o.map(e=>l[e]||e):o;r?(u.classList.remove(...n),u.classList.add(t)):u.setAttribute(e,t)}),i&&s.includes(t)&&(u.style.colorScheme=t)}if(n)c(n);else try{let e=localStorage.getItem(t)||r,n=a&&"system"===e?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":e;c(n)}catch(e){}})("class","theme","light",null,["light","dark"],null,true,true);
+    </script>
+</head>
+<body class="antialiased bg-slate-100 text-slate-800">
+
+    <header class="sticky top-0 z-50 w-full border-b border-slate-700/50 bg-slate-800 py-4">
+        <div class="container px-4 sm:px-6 flex items-center justify-between mx-auto">
+            <div class="flex items-center gap-2">
+                <img alt="Cash Cleaner Simulator Logo" loading="lazy" width="48" height="48" decoding="async" data-nimg="1" style="color:transparent" src="images/ccs_logo.png"/>
+                <a class="font-bold text-xl text-slate-100" href="/">Cash Cleaner Simulator</a>
+            </div>
+            <nav class="hidden md:flex items-center gap-6">
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="game_guide.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scroll-text mr-2 h-4 w-4"><path d="M15 12h-5"></path><path d="M15 8h-5"></path><path d="M19 17V5a2 2 0 0 0-2-2H4"></path><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"></path></svg>Game Guide
+                </a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="cash-cleaner-simulator-download.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-down mr-2 h-4 w-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M12 18v-6"></path><path d="m9 15 3 3 3-3"></path></svg>Download
+                </a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="news.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw mr-2 h-4 w-4"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></svg>News & Updates
+                </a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="https://steamcommunity.com/app/2488370/allnews/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sticky-note mr-2 h-4 w-4"><path d="M16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8Z"></path><path d="M15 3v4a2 2 0 0 0 2 2h4"></path></svg>Dev Blog
+                </a>
+            </nav>
+            <div class="flex items-center gap-2">
+                <button id="mobile-menu-button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-slate-700 hover:text-white h-9 w-9 md:hidden" aria-expanded="false">
+                    <span class="sr-only">Menu</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu text-slate-100"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 border-t border-slate-700/50">
+            <nav class="flex flex-col items-center gap-4 py-4">
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="game_guide.html">Game Guide</a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="cash-cleaner-simulator-download.html">Download</a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="news.html">News & Updates</a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="https://steamcommunity.com/app/2488370/allnews/" target="_blank">Dev Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex min-w-screen min-h-screen flex-col pt-[0rem] items-center justify-between">
+        <div class="absolute z-[-99] pointer-events-none inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        
+        <main class="min-h-screen px-4 sm:px-0 relative w-full">
+            <section class="py-12 md:py-16 px-4 sm:px-6">
+                <div class="container mx-auto">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h1 class="text-3xl md:text-4xl font-bold mb-4 text-slate-900">Cash Cleaner Simulator: Get Rich or Get... Clean!</h1>
+                            <p class="text-slate-600 mb-6">Welcome to the most satisfying job simulator you never knew you wanted! Grab your gloves, turn up the music, and get ready to clean, sort, and pack stacks of dirty money. It's part oddly satisfying cleaning sim, part fever dream. And yes, every single banknote is physics-simulated!</p>
+                            <div class="flex flex-col sm:flex-row gap-4">
+                                <a href="#features-section" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-emerald-600 text-white shadow hover:bg-emerald-700 h-9 px-4 py-2">Discover Key Features</a>
+                                <a href="https://store.steampowered.com/app/2488370/Cash_Cleaner_Simulator/" target="_blank">
+                                    <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-emerald-600 bg-transparent shadow-sm hover:bg-emerald-500/20 hover:text-emerald-700 text-emerald-600 h-9 px-4 py-2 w-full sm:w-auto">Buy on Steam</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/20 z-10">
+                                <button id="play-trailer-button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:text-white h-16 w-16 rounded-full bg-emerald-600/80 backdrop-blur-sm text-white hover:bg-emerald-700">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                    <span class="sr-only">Play Cash Cleaner Simulator Trailer</span>
+                                </button>
+                            </div>
+                            <img id="video-poster" src="images/ccs_trailer_poster.jpg" alt="Cash Cleaner Simulator Trailer Poster" loading="lazy" class="absolute inset-0 w-full h-full object-cover">
+                            <div id="video-container" class="relative overflow-hidden rounded-lg aspect-video hidden">
+                                <iframe src="https://www.youtube.com/embed/p9Ex4qkurBc" title="Watch the Cash Cleaner Simulator Announcement Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen class="absolute inset-0 w-full h-full border-0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-12 md:py-16">
+                <div class="flex flex-col items-center gap-4 container mx-auto">
+                    <div class="w-full max-w-4xl flex flex-col justify-center items-center text-center px-4">
+                        <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Cash Cleaner Gallery: A Glimpse into the Action!</h2>
+                        <p class="text-sm text-slate-600">Take a peek at the satisfying (and sometimes messy) world of Cash Cleaner Simulator. Browse screenshots of the cleaning process, tools, and your workspace.</p>
+                    </div>
+                    <div class="relative aspect-video w-full max-w-4xl overflow-hidden rounded-xl border border-slate-300">
+                        <img id="gallery-main-image" alt="Selected Cash Cleaner Simulator image" decoding="async" data-nimg="fill" class="object-cover w-full h-full" src="images/gallery/cash_cleaner_simulator_1.jpg" loading="lazy"/>
+                    </div>
+                    <div class="flex w-full max-w-4xl items-center gap-2 px-4">
+                        <button id="gallery-prev" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors border border-slate-400 bg-transparent shadow-sm hover:bg-slate-200 hover:text-slate-700 text-slate-600 h-9 w-9 shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left h-4 w-4"><path d="m15 18-6-6 6-6"></path></svg>
+                        </button>
+                        <div id="gallery-thumbnails" class="flex flex-1 gap-2 overflow-x-auto py-2 scrollbar-hide">
+                            <!-- Thumbnails will be added here by JS -->
+                        </div>
+                        <button id="gallery-next" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors border border-slate-400 bg-transparent shadow-sm hover:bg-slate-200 hover:text-slate-700 text-slate-600 h-9 w-9 shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-4 w-4"><path d="m9 18 6-6-6-6"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="gameplay-overview-section" class="py-12 md:py-16 mx-4 sm:px-6 bg-slate-700 text-slate-100">
+                <div class="container mx-auto">
+                    <div class="text-center mb-12">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-4">The Art of Cleaning: Gameplay in Cash Cleaner Simulator</h2>
+                        <p class="text-slate-300 max-w-3xl mx-auto">Step into the shoes of a specialist in a very particular field. Receive dubious deliveries, identify counterfeit bills, wash away dirt and... other stains. Use a variety of tools, upgrade your lab, and manage your clandestine operations. It's not just about cleaning; it's about efficiency, discretion, and maybe uncovering a few secrets along the way.</p>
+                        <div class="flex my-1 flex-wrap gap-2 justify-center mt-4">
+                            <a class="text-sm p-2 rounded-full focus:outline-none focus:shadow-outline bg-sky-500/20 text-sky-300 hover:bg-sky-600/30" href="game_guide.html#tools">Tools of the Trade</a>
+                            <a class="text-sm p-2 rounded-full focus:outline-none focus:shadow-outline bg-emerald-500/20 text-emerald-300 hover:bg-emerald-600/30" href="game_guide.html#cleaning-process">The Cleaning Process</a>
+                        </div>
+                    </div>
+                    <div class="relative grid md:grid-cols-2 gap-12 items-center mb-12">
+                        <div class="absolute inset-0 -z-10 "><img alt="Cash Cleaner Gameplay Background" loading="lazy" decoding="async" data-nimg="fill" class="object-cover blur-sm opacity-50 w-full h-full" style="color:transparent" src="images/gallery/ccs_screenshot_2.jpg"/></div>
+                        <div class="p-4 bg-slate-800/50 backdrop-blur-sm rounded-lg">
+                            <h3 class="text-xl font-bold mb-3 text-emerald-400">Mastering Your Tools: From Washers to Scanners</h3>
+                            <p class=" mb-4 text-slate-200">Utilize a range of equipment: washing machines for bulk cleaning, dryers for that crisp finish, scanners to detect impurities, and specialized tools for unique challenges. Each job demands the right approach!</p>
+                            <a href="game_guide.html#tools"><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-colors shadow hover:bg-emerald-700 bg-emerald-600 p-2 h-auto font-medium text-white">Explore All Tools →</button></a>
+                        </div>
+                        <div class="relative aspect-video rounded-lg overflow-hidden shadow-lg"><img alt="Cash Cleaning Action" loading="lazy" width="500" height="300" decoding="async" data-nimg="1" class="object-cover w-full h-full" style="color:transparent" src="images/manufacturing.gif"/></div>
+                    </div>
+                    <!-- More gameplay blocks will be added here -->
+                </div>
+            </section>
+            
+            <section id="features-section" class="py-16 bg-slate-200 px-4 sm:px-6">
+                <div class="container mx-auto">
+                    <div class="text-center mb-12">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-4 text-slate-900">Key Features: What Makes Cash Cleaner Simulator So Satisfying</h2>
+                        <p class="text-slate-600 max-w-3xl mx-auto">Cash Cleaner Simulator offers a unique blend of satisfying cleaning mechanics, quirky storytelling, and the thrill of managing your own underground enterprise.</p>
+                    </div>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="flex justify-center mb-4 text-4xl">💸</div>
+                            <h3 class="text-lg font-semibold mb-2 text-slate-800">Realistic Cash Physics</h3>
+                            <p class="text-slate-600">Every banknote and coin behaves with satisfyingly real physics. Stack it, sort it, watch it tumble!</p>
+                        </div>
+                         <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="flex justify-center mb-4 text-4xl">🛠️</div>
+                            <h3 class="text-lg font-semibold mb-2 text-slate-800">Tools of the Trade</h3>
+                            <p class="text-slate-600">From industrial washing machines and dryers to high-tech scanners and bill counters. Upgrade and expand your arsenal.</p>
+                        </div>
+                         <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="flex justify-center mb-4 text-4xl">📖</div>
+                            <h3 class="text-lg font-semibold mb-2 text-slate-800">Engaging Story Mode</h3>
+                            <p class="text-slate-600">Unravel a narrative with multiple endings, shady clients, and unexpected twists. How did you get here? Can you ever leave?</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="flex justify-center mb-4 text-4xl">💎</div>
+                            <h3 class="text-lg font-semibold mb-2 text-slate-800">Secrets & Cryptocurrency</h3>
+                            <p class="text-slate-600">Discover hidden easter eggs, unlock secret areas in your lab, and dabble in the volatile world of in-game cryptocurrencies.</p>
+                        </div>
+                         <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="flex justify-center mb-4 text-4xl">🎶</div>
+                            <h3 class="text-lg font-semibold mb-2 text-slate-800">Chill Lo-Fi Soundtrack</h3>
+                            <p class="text-slate-600">Clean to the beat of an original soundtrack featuring chilled-out lo-fi hip-hop tracks, available in-game and separately.</p>
+                        </div>
+                         <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="flex justify-center mb-4 text-4xl">🎨</div>
+                            <h3 class="text-lg font-semibold mb-2 text-slate-800">Customize Your Hideout</h3>
+                            <p class="text-slate-600">Spend your hard-earned (clean) cash on decorative items and furniture to personalize your workspace.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-12 bg-sky-600 px-4 sm:px-6">
+                <div class="container mx-auto">
+                    <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                        <h2 class="text-2xl md:text-3xl font-bold text-white">Ready to Start Your Cleaning Empire? Get Cash Cleaner Simulator!</h2>
+                        <a href="cash-cleaner-simulator-download.html"><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors shadow h-9 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white">Buy on Steam Now!</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-16 px-4 sm:px-6 bg-slate-900 text-slate-100">
+                 <div class="container mx-auto">
+                    <div class="text-center mb-12">
+                        <h2 class="text-4xl font-bold mb-4">Pro Cleaner Tips: Maximize Your Efficiency!</h2>
+                        <p class="text-slate-400 text-lg">Our community of cleaners has shared these top tips for getting the most out of your... operations.</p>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute top-8 left-0 right-0 h-px bg-slate-700/50 hidden md:block"></div>
+                        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8">
+                            <div class="relative">
+                                <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-slate-700 flex items-center justify-center mx-auto mb-6 relative z-10"><span class="text-2xl font-bold text-slate-100">1</span></div>
+                                <h3 class="text-xl font-bold mb-3 text-center">Sort Before You Wash</h3>
+                                <p class="text-slate-400 text-center">Identify counterfeit or heavily damaged bills first. Some stains might need special pre-treatment before going into the washer!</p>
+                            </div>
+                            <div class="relative">
+                                <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-slate-700 flex items-center justify-center mx-auto mb-6 relative z-10"><span class="text-2xl font-bold text-slate-100">2</span></div>
+                                <h3 class="text-xl font-bold mb-3 text-center">Mind the Dryer Settings</h3>
+                                <p class="text-slate-400 text-center">Over-drying can damage delicate bills. Find the optimal time and temperature for that perfect crispness without ruining your hard work.</p>
+                            </div>
+                            <div class="relative">
+                                <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-slate-700 flex items-center justify-center mx-auto mb-6 relative z-10"><span class="text-2xl font-bold text-slate-100">3</span></div>
+                                <h3 class="text-xl font-bold mb-3 text-center">Upgrade Wisely</h3>
+                                <p class="text-slate-400 text-center">Prioritize upgrades that significantly boost your throughput or unlock new cleaning capabilities based on the jobs you're taking.</p>
+                            </div>
+                            <div class="relative">
+                                <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-slate-700 flex items-center justify-center mx-auto mb-6 relative z-10"><span class="text-2xl font-bold text-slate-100">4</span></div>
+                                <h3 class="text-xl font-bold mb-3 text-center">Scanner is Your Friend</h3>
+                                <p class="text-slate-400 text-center">Don't just rely on your eyes. Use the scanner frequently to catch hidden markings, security features, or residual contaminants.</p>
+                            </div>
+                            <div class="relative">
+                                <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-slate-700 flex items-center justify-center mx-auto mb-6 relative z-10"><span class="text-2xl font-bold text-slate-100">5</span></div>
+                                <h3 class="text-xl font-bold mb-3 text-center">Explore Your Lab</h3>
+                                <p class="text-slate-400 text-center">Keep an eye out for hidden compartments or unusual items in your workspace. You never know what secrets (or extra storage) you might find.</p>
+                            </div>
+                             <div class="relative">
+                                <div class="w-16 h-16 rounded-full bg-slate-800 border-2 border-slate-700 flex items-center justify-center mx-auto mb-6 relative z-10"><span class="text-2xl font-bold text-slate-100">6</span></div>
+                                <h3 class="text-xl font-bold mb-3 text-center">Check Client Feedback</h3>
+                                <p class="text-slate-400 text-center">Pay attention to client requests and feedback. Happy clients mean more jobs and better rewards. Some have very specific demands!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-16 px-4 sm:px-6">
+                <div class="container mx-auto">
+                    <div class="text-center mb-12">
+                        <h2 class="text-2xl md:text-3xl font-bold mb-4 text-slate-900">Straight from the Launderette: Player Reviews</h2>
+                        <p class="text-slate-600 max-w-3xl mx-auto">Cash Cleaner Simulator is making a splash! Here's what players are saying about their money cleaning adventures.</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <p class="text-slate-600 mb-4 italic">"Incredibly satisfying gameplay loop! Watching those dirty bills come out sparkling clean is addictive."</p>
+                            <p class="font-semibold text-slate-800">- Steam User A</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <p class="text-slate-600 mb-4 italic">"The story mode is surprisingly engaging for a sim game. I need to know what happens next!"</p>
+                            <p class="font-semibold text-slate-800">- CleanerPro9000</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <p class="text-slate-600 mb-4 italic">"Love the physics! Throwing stacks of cash around never gets old. The lo-fi beats are a perfect touch."</p>
+                            <p class="font-semibold text-slate-800">- MoneyMaestro</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <p class="text-slate-600 mb-4 italic">"The attention to detail in the cleaning process is fantastic. So many tools, so many ways to clean (or mess up!)."</p>
+                            <p class="font-semibold text-slate-800">- SudsSavvy</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <p class="text-slate-600 mb-4 italic">"A must-buy for anyone who loves satisfying simulation games. The crypto mini-game is a fun distraction too!"</p>
+                            <p class="font-semibold text-slate-800">- BitWasher</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <p class="text-slate-600 mb-4 italic">"Found myself organizing virtual cash for hours. It's weirdly therapeutic. Highly recommend!"</p>
+                            <p class="font-semibold text-slate-800">- ZenCleaner</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-12 bg-slate-700 px-4 sm:px-6">
+                <div class="container mx-auto text-center">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-6 text-white">Join the Cash Cleaner Community</h2>
+                    <p class="text-slate-300 mb-8 max-w-xl mx-auto">Connect with fellow cleaners, share tips, discuss strategies, and stay updated on the latest game news and events. Follow us on our social channels!</p>
+                    <div class="flex justify-center gap-4">
+                        <a href="https://twitter.com/CashCleanerGame" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors bg-sky-500 hover:bg-sky-600 text-white h-10 px-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                            Twitter
+                        </a>
+                        <a href="https://discord.gg/youractualdiscordlink" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors bg-indigo-500 hover:bg-indigo-600 text-white h-10 px-6">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-discord"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M9.5 9.5c.828 0 1.5-.672 1.5-1.5S10.328 6.5 9.5 6.5 8 7.172 8 8s.672 1.5 1.5 1.5z"></path><path d="M14.5 9.5c.828 0 1.5-.672 1.5-1.5S15.328 6.5 14.5 6.5 13 7.172 13 8s.672 1.5 1.5 1.5z"></path><path d="M16.5 14.5s-1.5-2-4.5-2-4.5 2-4.5 2"></path></svg>
+                            Discord
+                        </a>
+                        <a href="https://youtube.com/channel/YOUR_CHANNEL_ID" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors bg-red-600 hover:bg-red-700 text-white h-10 px-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17z"></path><path d="m10 15 5-3-5-3z"></path></svg>
+                            YouTube
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <section id="faq-section" class="py-16 px-4 sm:px-6 bg-slate-50">
+            <div class="container mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-slate-900">Frequently Asked Questions (FAQ)</h2>
+                    <p class="text-slate-600 max-w-2xl mx-auto">Got questions? We\'ve got answers! Here\'s some common info about Cash Cleaner Simulator.</p>
+                </div>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-800">Q: What is the release date for Cash Cleaner Simulator?</h3>
+                        <p class="text-slate-700 leading-relaxed">A: Cash Cleaner Simulator was officially released on <strong class="text-emerald-600">May 8, 2025</strong>, for PC on Steam.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-800">Q: How much does Cash Cleaner Simulator cost?</h3>
+                        <p class="text-slate-700 leading-relaxed">A: The base price for Cash Cleaner Simulator on Steam is <strong class="text-emerald-600">$14.99 USD</strong>. Prices may vary based on regional pricing, sales, or special offers. For example, there was an introductory offer of $13.49 USD.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-800">Q: Is Cash Cleaner Simulator available on Android, Xbox, or PS5?</h3>
+                        <p class="text-slate-700 leading-relaxed">A: Currently, Cash Cleaner Simulator is officially available for <strong class="text-emerald-600">PC (Windows) via Steam</strong>. There is no official information at this time regarding a release on Android, Xbox, or PS5 platforms.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-800">Q: Is there a demo for Cash Cleaner Simulator?</h3>
+                        <p class="text-slate-700 leading-relaxed">A: Yes, a <strong class="text-emerald-600">demo version</strong> of Cash Cleaner Simulator has been available, allowing players to try out game mechanics with a variety of equipment. Availability of demos can change, so it\'s best to check the official Steam page for the most current information.</p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-800">Q: What is the UV light used for in Cash Cleaner Simulator?</h3>
+                        <p class="text-slate-700 leading-relaxed">A: The UV light is an in-game tool used to <strong class="text-emerald-600">detect counterfeit bills and identify special markings</strong> on banknotes (like tracked bills with unique symbols). It\'s a key mechanic for carefully inspecting the cash you process.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2 text-slate-800">Q: What are some games similar to Cash Cleaner Simulator?</h3>
+                        <p class="text-slate-700 leading-relaxed">A: If you enjoy the simulation, management, and satisfying task-completion aspects of Cash Cleaner Simulator, you might also like games such as:</p>
+                        <ul class="list-disc list-inside mt-2 space-y-1 text-slate-700">
+                            <li><strong class="text-emerald-600">PowerWash Simulator:</strong> For that satisfying cleaning feeling.</li>
+                            <li><strong class="text-emerald-600">House Flipper Series:</strong> Involves renovation and task-based progression.</li>
+                            <li><strong class="text-emerald-600">Supermarket Simulator:</strong> Focuses on management and daily operations.</li>
+                            <li>Other job simulators or tycoon games that share tags like \'physics\', \'sandbox\', or \'immersive sim\'.</li>
+                        </ul>
+                        <p class="text-slate-700 leading-relaxed mt-2">The best way to find similar games is to check the \'More Like This\' section on the Cash Cleaner Simulator Steam page, or look for games with similar user-defined tags.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-8 bg-slate-800 border-t border-slate-700">
+            <div class="container mx-auto px-4 sm:px-6 text-center text-slate-400">
+                <div class="mb-4">
+                    <img alt="Cash Cleaner Simulator Logo" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" style="color:transparent" src="images/ccs_logo.png" class="mx-auto mb-2"/>
+                    <p class="text-lg font-semibold text-slate-100">Cash Cleaner Simulator</p>
+                </div>
+                <div class="flex justify-center gap-4 mb-4">
+                    <a href="https://twitter.com/CashCleanerGame" target="_blank" rel="noopener noreferrer" class="hover:text-sky-400 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                    <a href="https://discord.gg/youractualdiscordlink" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-400 transition-colors">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-discord"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M9.5 9.5c.828 0 1.5-.672 1.5-1.5S10.328 6.5 9.5 6.5 8 7.172 8 8s.672 1.5 1.5 1.5z"></path><path d="M14.5 9.5c.828 0 1.5-.672 1.5-1.5S15.328 6.5 14.5 6.5 13 7.172 13 8s.672 1.5 1.5 1.5z"></path><path d="M16.5 14.5s-1.5-2-4.5-2-4.5 2-4.5 2"></path></svg>
+                        <span class="sr-only">Discord</span>
+                    </a>
+                    <a href="https://youtube.com/channel/YOUR_CHANNEL_ID" target="_blank" rel="noopener noreferrer" class="hover:text-red-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17z"></path><path d="m10 15 5-3-5-3z"></path></svg>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                </div>
+                <div class="text-sm mb-2">
+                    <a href="privacy.html" class="hover:text-slate-200 transition-colors">Privacy Policy</a> |
+                    <a href="terms.html" class="hover:text-slate-200 transition-colors">Terms of Service</a> |
+                    <a href="contact.html" class="hover:text-slate-200 transition-colors">Contact Us</a>
+                </div>
+                <p class="text-xs">&copy; 2025 Cash Cleaner Simulator. All rights reserved. cashcleanerSimulator.org</p>
+                <p class="text-xs mt-1">This is a fan community website. Cash Cleaner Simulator is developed by Mind Control Games and published by Forklift Interactive & Digital Pajamas.</p>
+            </div>
+    </footer>
+    
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

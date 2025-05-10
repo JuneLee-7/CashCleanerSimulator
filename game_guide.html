@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Cash Cleaner Simulator Guide | Become a Suds Savant (2025)</title>
+    <meta name="description" content="The Official Cash Cleaner Simulator Game Guide! Learn the basics, core mechanics, tool usage, pro strategies, client management, economic wizardry, and how to uncover hidden secrets. Get ready to make it rain (clean cash, of course!)."/>
+    <meta name="keywords" content="cash cleaner simulator game guide, cash cleaner simulator wiki, cash cleaner simulator strategy, cash cleaner simulator tips, game guide, cleaning simulator, money laundering (for fun!)"/>
+    <link rel="canonical" href="https://cashcleanerSimulator.org/game_guide.html"/>
+    <meta property="og:title" content="Cash Cleaner Simulator Official Guide - Tips, Tricks & Filthy Rich Fun!"/>
+    <meta property="og:description" content="Dive deep into the world of Cash Cleaner Simulator! This guide covers everything from getting started, core gameplay, tool upgrades, managing your moolah, client capers, advanced tactics, and hidden easter eggs."/>
+    <meta property="og:url" content="https://cashcleanerSimulator.org/game_guide.html"/>
+    <meta property="og:image" content="images/ccs_opengraph_guide.png"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:creator" content="@CashCleanerGame"/>
+    <meta name="twitter:title" content="Cash Cleaner Simulator Guide - Your Handbook to Hygienic Hustling"/>
+    <meta name="twitter:description" content="Master all the tricks of the Cash Cleaner Simulator trade! From basic operations to advanced strategies, become a legend in the cleaning (ahem) industry."/>
+    <meta name="twitter:image" content="images/ccs_opengraph_guide.png"/>
+    <link rel="icon" href="images/ccs_favicon.ico" type="image/x-icon" sizes="48x48"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for Game Guide page - Aligned with Cash Cleaner Simulator Theme */
+        .guide-content h2 {
+            font-size: 1.75rem; /* Tailwind text-2xl */
+            color: #1e3a8a; /* Deep Blue (e.g., text-blue-800) */
+            margin-top: 2.5rem; /* Tailwind mt-10 */
+            margin-bottom: 1rem; /* Tailwind mb-4 */
+            border-bottom: 2px solid #3b82f6; /* Lighter Blue for border (e.g., border-blue-500) */
+            padding-bottom: 0.5rem; /* Tailwind pb-2 */
+        }
+        .guide-content h3 {
+            font-size: 1.25rem; /* Tailwind text-xl */
+            color: #1e40af; /* Darker Blue (e.g., text-blue-700) */
+            margin-top: 1.5rem; /* Tailwind mt-6 */
+            margin-bottom: 0.75rem; /* Tailwind mb-3 */
+        }
+        .guide-content p, .guide-content ul, .guide-content ol {
+            margin-bottom: 1rem; /* Tailwind mb-4 */
+            line-height: 1.7; /* Slightly increased for readability */
+            color: #374151; /* Dark Gray Text (e.g., text-gray-700) */
+        }
+        .guide-content ul {
+            list-style-type: disc;
+            padding-left: 1.5rem; /* Tailwind pl-6 */
+        }
+        .guide-content ol {
+            list-style-type: decimal;
+            padding-left: 1.5rem; /* Tailwind pl-6 */
+        }
+        .guide-content strong {
+            color: #166534; /* Cash Green (e.g., text-green-700) */
+            font-weight: 600;
+        }
+        .guide-content a {
+            color: #1d4ed8; /* Link Blue (e.g., text-blue-600) */
+            text-decoration: underline;
+        }
+        .guide-content a:hover {
+            color: #1e3a8a; /* Darker Link Blue on hover */
+        }
+        .guide-nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .guide-nav li a {
+            display: block;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem; /* rounded-md */
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+            color: #4b5563; /* Gray text (e.g., text-gray-600) */
+        }
+        .guide-nav li a:hover {
+            background-color: #dbeafe; /* Light Blue hover (e.g., bg-blue-100) */
+            color: #1e3a8a; /* Deep Blue text on hover */
+        }
+        .guide-nav li a.active-section {
+            background-color: #1e3a8a; /* Deep Blue background for active */
+            color: #ffffff; /* White text for active */
+            font-weight: 600;
+        }
+        .guide-content .important-tip {
+            background-color: #fef9c3; /* Light Yellow (e.g., bg-yellow-50) */
+            border-left: 4px solid #facc15; /* Yellow border (e.g., border-yellow-400) */
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 0.375rem;
+        }
+        .guide-content .steam-tip {
+            background-color: #f0f9ff; /* Light Sky Blue (e.g., bg-sky-50) */
+            border-left: 4px solid #38bdf8; /* Sky Blue border (e.g., border-sky-400) */
+            padding: 0.75rem;
+            margin: 0.5rem 0 1rem 0;
+            border-radius: 0.25rem;
+            font-size: 0.9rem;
+        }
+        .guide-content .steam-tip::before {
+            content: "Steam Hot Tip: "; /* Changed from Chinese */
+            font-weight: bold;
+            color: #0ea5e9; /* Sky Blue text (e.g., text-sky-500) */
+            margin-right: 0.5em;
+        }
+    </style>
+    <script>
+        // Basic theme switcher (mimicking original from index.html)
+        ((e,t,r,n,o,l,a,i)=>{let u=document.documentElement,s=["light","dark"];function c(t){(Array.isArray(e)?e:[e]).forEach(e=>{let r="class"===e,n=r&&l?o.map(e=>l[e]||e):o;r?(u.classList.remove(...n),u.classList.add(t)):u.setAttribute(e,t)}),i&&s.includes(t)&&(u.style.colorScheme=t)}if(n)c(n);else try{let e=localStorage.getItem(t)||r,n=a&&"system"===e?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":e;c(n)}catch(e){}})("class","theme","light",null,["light","dark"],null,true,true);
+    </script>
+</head>
+<body class="antialiased bg-slate-100 text-slate-800">
+
+    <header class="sticky top-0 z-50 w-full border-b border-slate-700/50 bg-slate-800 py-4">
+        <div class="container px-4 sm:px-6 flex items-center justify-between mx-auto">
+            <div class="flex items-center gap-2">
+                <img alt="Cash Cleaner Simulator Logo" loading="lazy" width="48" height="48" decoding="async" data-nimg="1" style="color:transparent" src="images/ccs_logo.png"/>
+                <a class="font-bold text-xl text-slate-100" href="index.html">Cash Cleaner Simulator</a>
+            </div>
+            <nav class="hidden md:flex items-center gap-6">
+                <a class="flex items-center text-slate-100 bg-slate-700 rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="game_guide.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scroll-text mr-2 h-4 w-4"><path d="M15 12h-5"></path><path d="M15 8h-5"></path><path d="M19 17V5a2 2 0 0 0-2-2H4"></path><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"></path></svg>Game Guide
+                </a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="cash-cleaner-simulator-download.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-down mr-2 h-4 w-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M12 18v-6"></path><path d="m9 15 3 3 3-3"></path></svg>Download Game
+                </a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="news.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw mr-2 h-4 w-4"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></svg>News & Updates
+                </a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="https://steamcommunity.com/app/2488370/allnews/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sticky-note mr-2 h-4 w-4"><path d="M16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8Z"></path><path d="M15 3v4a2 2 0 0 0 2 2h4"></path></svg>Dev Blog
+                </a>
+            </nav>
+            <div class="flex items-center gap-2">
+                <button id="mobile-menu-button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-slate-700 hover:text-white h-9 w-9 md:hidden" aria-expanded="false">
+                    <span class="sr-only">Menu</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu text-slate-100"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 border-t border-slate-700/50">
+            <nav class="flex flex-col items-center gap-4 py-4">
+                <a class="flex items-center text-slate-100 bg-slate-700 rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="game_guide.html">Game Guide</a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="cash-cleaner-simulator-download.html">Download Game</a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="news.html">News & Updates</a>
+                <a class="flex items-center text-slate-300 hover:text-white hover:bg-slate-700 hover:rounded-md px-2 py-1 transition-all duration-200 ease-in-out" href="https://steamcommunity.com/app/2488370/allnews/" target="_blank">Dev Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex min-w-screen min-h-screen flex-col pt-[0rem] items-center bg-slate-50">
+        <div class="container mx-auto px-4 py-8 sm:py-12">
+            <header class="mb-10 text-center">
+                <h1 class="text-4xl sm:text-5xl font-bold text-slate-800 !mb-3">Cash Cleaner Simulator - The Official Unofficial Guide!</h1>
+                <p class="text-lg text-slate-600">Welcome to the sparkling world of professional cash cleansing! This guide will turn you from a sudsy newbie to a money-makin', grime-bustin' maestro.</p>
+            </header>
+
+            <div class="flex flex-col md:flex-row gap-8">
+                <!-- Sticky Sidebar Navigation -->
+                <aside class="md:w-1/4 lg:w-1/5 guide-nav md:sticky md:top-24 self-start bg-white p-4 rounded-lg shadow-lg border border-slate-200">
+                    <h2 class="text-xl font-semibold text-slate-700 mb-4">Guide Chapters</h2>
+                    <ul class="space-y-2">
+                        <li><a href="#guide-introduction" class="active-section">Game Intro: What's the Suds?</a></li>
+                        <li><a href="#guide-getting-started">Getting Started: Your First Spin Cycle</a></li>
+                        <li><a href="#guide-core-mechanics">Core Mechanics: The Art of the Wash</a></li>
+                        <li><a href="#guide-tools-equipment">Tools & Equipment: Your Cleaning Arsenal</a></li>
+                        <li><a href="#guide-advanced-strategies">Pro Tips & Tricks: Sudsational Strats</a></li>
+                        <li><a href="#guide-story-mode">Story Mode: The Plot Thickens!</a></li>
+                        <li><a href="#guide-achievements">Achievements: Bragging Rights!</a></li>
+                        <li><a href="#guide-faq">FAQs: Burning Questions Answered!</a></li>
+                        <li><a href="#guide-community">Community: Join the Clean Crew!</a></li>
+                    </ul>
+                </aside>
+
+                <!-- Main Content Area -->
+                <div class="md:w-3/4 lg:w-4/5 guide-content bg-white p-6 sm:p-8 rounded-lg shadow-xl border border-slate-200">
+                    
+                    <section id="guide-introduction">
+                        <h2><span class="text-emerald-600">💸</span> Welcome to the World of Cash Cleaner Simulator! (No, Seriously!)</h2>
+                        <p>Alright, future tycoon of tidiness! Cash Cleaner Simulator throws you into a world bubbling with challenge and, dare we say, opportunity. You\'re not just washing bills; you\'re building a subterranean empire of sparkle. This game delivers satisfaction like a perfectly pressed stack – every bill, simulated with real physics, makes cleaning, sorting, drying, and stacking an oddly immersive thrill. Curious about what makes this game so captivating? Check out the <a href="index.html#features-section" title="Discover Key Game Features"><strong>key features on our homepage</strong></a>!</p>
+                        <p>Ready for those "big orders" from mysterious clients? Upgrade your gear, unlock shiny new equipment, expand your clandestine lab, and peel back the layers of this very... *particular* industry. You\'ll face counterfeit cons, specially marked moolah, and decisions that could make or break your (possibly illicit) career. It\'s not just a job; it\'s an art form – the art of making dirty money look squeaky clean.</p>
+                        <p>This guide is your trusty squeegee in this high-stakes, high-reward world. Whether you\'re a fresh-faced rookie or a seasoned pro looking to polish your technique, we\'ve got the dirt (or lack thereof) for you. Before you dive deeper, why not catch up on the <a href="news.html" title="Latest Game News & Updates"><strong>latest game news and updates</strong></a>? Let\'s get cleaning!</p>
+                    </section>
+
+                    <section id="guide-getting-started">
+                        <h2><span class="text-emerald-600">🚀</span> Getting Started: Your First Spin Cycle</h2>
+                        <h3>Your First Day on the Job (Don\'t Get Soaked!)</h3>
+                        <p>Stepping into your secret cleaning den for the first time might feel a bit overwhelming. Don\'t sweat it (it\'ll stain the cash); the path to becoming a cleaning kingpin starts here:</p>
+                        <ul>
+                            <li><strong>Learning the Ropes (Navigating the Interface):</strong> The game\'s UI is pretty straightforward. Keep an eye on your task list, cash inventory, tool conditions, and client happiness meter. Your current funds and mission objectives are usually up top. Toolbars and upgrade options might lurk on the sides or bottom. For a quick visual, see the <a href="index.html#gameplay-overview-section" title="Gameplay Overview"><strong>gameplay overview on our main page</strong></a>.</li>
+                            <li><strong>First Delivery! (Receiving Your First... Uh... Package):</strong> Soon enough, your first batch of "items" needing "processing" will arrive. There's usually a designated drop-off spot. Double-check the order deets – amount, desired cleanliness, etc.</li>
+                            <li><strong>The Moves (Basic Controls and Actions):</strong>
+                                <ul>
+                                    <li><strong>Grab & Go:</strong> Click or drag with your mouse to pick up bills and fiddle with machines.</li>
+                                    <li><strong>Machine Whisperer:</strong> Click on equipment (washers, dryers) to turn 'em on, set 'em up, or feed 'em cash.</li>
+                                    <li><strong>Scope it Out:</strong> You might need to use the mouse wheel to zoom or hold a key to rotate your view for a better look at your handiwork.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h3>What\'s the Goal, Boss? (Understanding Your Objectives)</h3>
+                        <p>Every client and every wad of cash is unique, like a grimy snowflake:</p>
+                        <ul>
+                            <li><strong>Job Jargon (Different Types of Jobs/Orders):</strong> Tasks range from simple small-time cleans to complex operations involving mountains of moolah, stubborn stains, or even sneaky counterfeits.</li>
+                            <li><strong>Client Quirks (Client Demands and Expectations):</strong> Some clients just want a basic rinse, while others are real sticklers for cleanliness, dryness, or even how you stack the final product. Read those mission briefings carefully! Messing up could mean less pay or an unhappy (and possibly dangerous) customer. Ready to <a href="cash-cleaner-simulator-download.html" title="Download Cash Cleaner Simulator"><strong>download the game and start your career</strong></a>?</li>
+                        </ul>
+                        <div class="important-tip">
+                            <p><strong>Newbie Nugget:</strong> Those first few orders are your training montage. Don't rush! Watch how different cleaners tackle various stains, and how drying times and temps affect the outcome. You'll be a pro before you know it!</p>
+                        </div>
+                    </section>
+
+                    <section id="guide-core-mechanics">
+                        <h2><span class="text-emerald-600">🛠️</span> Core Mechanics: The Art of the Wash (and Dry, and Stack...)</h2>
+                        <h3>The Cash Conveyor Belt of Cleanliness (The Cash Handling Pipeline)</h3>
+                        <p>To become a bona fide cash connoisseur, you gotta master the full pipeline. Every step is crucial and directly impacts your bottom line and whether your clients sing your praises or... well, let's not go there.</p>
+                        <ol>
+                            <li><strong>Incoming! & The Once-Over (Receiving & Initial Inspection):</strong>
+                                <p>When the "goods" arrive, give 'em a quick eyeball. Look for obvious damage (tears, missing bits), foreign objects, or any suspicious markings. A little caution here saves a lot of scrubbing later.</p>
+                            </li>
+                            <li><strong>Sort It Out! (Sorting):</strong>
+                                <p>Time to play matchmaker based on the order and the state of the cash:</p>
+                                <ul>
+                                    <li><strong>Face Value (Denomination):</strong> Different denominations might need different TLC or separate processing.</li>
+                                    <li><strong>Stain Station (Stain Type):</strong> Grease, ink, blood (hopefully not too much!), mud... different goop needs different soap.</li>
+                                    <li><strong>Red Flags (Marked Bills):</strong> Keep a keen eye out for bills tagged by dye packs or other security gizmos. These often need special handling or are just write-offs.
+                                        <div class="steam-tip">Player Dersh suggests that with the right lighting or angle, you can spot some sneaky marks early on, boosting sorting efficiency and saving resources down the line. Smart!</div>
+                                        <div class="steam-tip">Graves mentions that in the early game, before you get fancy scanners, try quickly flipping bills under a light source. Some marks are easier to see at certain angles. Crafty!</div>
+                                    </li>
+                                    <li><strong>Funny Money? (Suspected Counterfeits):</strong> If the game has fakes, learn to spot 'em by feel, print quality, and security features.</li>
+                                </ul>
+                            </li>
+                            <li><strong>The Big Clean (Cleaning):</strong>
+                                <p>This is where the magic happens! Pick the right detergents and machines for the bill's material and the type of gunk you're dealing with.</p>
+                                <ul>
+                                    <li><strong>Elbow Grease (Manual Cleaning):</strong> For small batches or super stubborn stains, you might need to get hands-on with a wipe or soak.</li>
+                                    <li><strong>Machine Mayhem (Machine Cleaning):</strong> Washing machines can power through bulk loads, but choose your cycles and soaps wisely to avoid trashing the tender.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Rinse & Repeat (Well, Rinse & Neutralize) (Rinsing & Neutralizing):</strong>
+                                <p>After the wash, a thorough rinse is vital to get rid of leftover chemicals. You don't want those eating away at the fibers or leaving a weird smell. Some heavy-duty cleaners might even need a neutralizer.</p>
+                            </li>
+                            <li><strong>Dry Times (Drying):</strong>
+                                <p>Get those damp dollars bone dry. Too little drying leads to mold and smells; too much makes 'em brittle. A delicate balance!</p>
+                                <ul>
+                                    <li><strong>Hang 'Em High (Air Drying):</strong> Good for small or delicate jobs, but takes ages.</li>
+                                    <li><strong>Hot Air Heroes (Dryers):</strong> Fast and efficient, but you gotta nail the temp and time. Different dryer types (tumbler, flatbed) have different quirks.</li>
+                                </ul>
+                                <div class="important-tip"><p><strong>Drying Hack:</strong> For wrinkly bills, give 'em a gentle press when they're half-dry, then finish drying. They'll come out looking much sharper!</p></div>
+                            </li>
+                            <li><strong>Press On & Pile High (Pressing & Stacking):</strong>
+                                <p>Dried bills usually need a good pressing to look crisp and professional. A proper presser machine is a game-changer. Then, stack 'em neat and strap 'em tight, just how the client (or the bank) likes 'em.</p>
+                            </li>
+                            <li><strong>The Final Scan-Down (Scanning & Final Quality Check):</strong>
+                                <p>Use UV lights, magnifiers, or other pro scanners for one last check. No leftover stains, no chemical traces, security features intact, and no new damage from your "care."</p>
+                            </li>
+                            <li><strong>Pack It Up, Ship It Out! (Packaging & Delivery):</strong>
+                                <p>Package the pristine product as per the order. Some clients are fussy about materials and methods. Deliver on time and on the down-low to seal the deal.</p>
+                            </li>
+                        </ol>
+                        <h3>Your Sudsy Sanctuary (Lab/Hideout Management)</h3>
+                        <p>Your workshop isn't just a pile of tools; it's the heart of your burgeoning (and very discreet) enterprise.</p>
+                        <ul>
+                            <li><strong>Feng Shui for Filth (Layout and Optimization):</strong> Plan your workspace for a smooth, efficient cleaning flow. Keep related gear together to cut down on dashing about.</li>
+                            <li><strong>Shop 'Til You Drop (Cleaner) (Purchasing and Placing New Equipment):</strong> As business booms, you'll need fancier toys. Consider their footprint, power draw, and how they fit into your grand scheme.</li>
+                            <li><strong>Pimp Your Pad (Customizing Your Workspace):</strong> The game might let you personalize your space a bit. A happy cleaner is an efficient cleaner, right?</li>
+                            <li><strong>Lock & Key, Low & Sleazy (Security and Discretion):</strong> Given your... *unique* line of work, keeping your lab secret and safe is paramount. Upgrade security to keep prying eyes (and hands) out.</li>
+                        </ul>
+                    </section>
+
+                    <section id="guide-tools-equipment">
+                        <h2><span class="text-emerald-600">🔧</span> Tools & Equipment: Your Cleaning Arsenal</h2>
+                        <p>In Cash Cleaner Simulator, your success hinges on your tools. From basic tubs to high-tech scanners, each piece of equipment plays a vital role in transforming grimy bills into pristine stacks. Upgrading your arsenal will allow you to take on bigger jobs, process cash faster, and maintain a higher quality of... uh... cleanliness. Remember to check out the <a href="index.html#features-section" title="Game Features"><strong>main game features page</strong></a> for a glimpse at some of the advanced gear you can acquire.</p>
+                        <h3>The Starter Pack (Starting Tools)</h3>
+                        <p>In the early days, you'll be making do with the basics:</p>
+                        <ul>
+                            <li><strong>Gloves (Gloves):</strong> Protect your precious paws and keep the cash contamination-free.</li>
+                            <li><strong>Basic Suds (Basic Cleaners):</strong> All-purpose goo for common grime.</li>
+                            <li><strong>Wipes & Bristles (Wipes and Brushes):</strong> For manual scrubbing and those really stubborn spots.</li>
+                            <li><strong>Makeshift Hangers (Simple Drying Racks):</strong> For air-drying small loads of loot.</li>
+                            <li><strong>The Inspector Gadget (Magnifying Glass):</strong> For a closer look at bill details and simple markings.</li>
+                        </ul>
+                        <h3>Level Up Your Laundry List! (Upgradable Equipment)</h3>
+                        <p>To boost efficiency and tackle trickier jobs, you'll need to invest in some serious hardware:</p>
+                        <ul>
+                            <li><strong>Industrial Strength Washers (Industrial Washing Machines):</strong>
+                                <ul>
+                                    <li><strong>Varieties:</strong> Tumbler, ultrasonic... different machines for different bills and blemishes.</li>
+                                    <li><strong>Features:</strong> Adjustable cycles, temps, soap dosage. High-end models might even auto-sort!</li>
+                                </ul>
+                            </li>
+                            <li><strong>Pro Dryers (Professional Dryers):</strong>
+                                <ul>
+                                    <li><strong>Types:</strong> Centrifugal, hot air cabinets, vacuum dryers... choices, choices!</li>
+                                    <li><strong>Perks:</strong> Precise temp/humidity control to prevent warping or frying. Some might even do a bit of light pressing.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Eagle-Eyed Scanners (Precision Scanners):</strong>
+                                <ul>
+                                    <li><strong>Powers:</strong> UV, infrared, magnetic detection, fiber analysis – for spotting fakes, hidden marks, and chemical cooties.</li>
+                                    <li><strong>Why Bother?:</strong> Top-tier jobs and security-conscious clients demand pristine purity. These are a must.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Counting & Bundling Buddies (Bill Counters & Strapping Machines):</strong>
+                                <p>Massively speeds up handling huge hauls, ensuring accurate counts and bank-standard (or client-standard) bundles.</p>
+                            </li>
+                            <li><strong>The Flattener (Pressing Machines):</strong>
+                                <p>Turns washed and dried bills back into crisp, professional-looking stacks. Presentation is everything!</p>
+                            </li>
+                            <li><strong>The Strong Stuff (Advanced Chemicals & Solvents):</strong>
+                                <p>For those nightmare stains – special inks, dyes, glues. Use with care, and mind the bill material!</p>
+                            </li>
+                            <li><strong>Breathe Easy Systems (Ventilation & Air Purification):</strong>
+                                <p>Good airflow is crucial when you're playing chemist. Air purifiers also keep dust and weird smells from ruining your work.</p>
+                            </li>
+                            <li><strong>Fort Knox Jr. (Security Systems):</strong>
+                                <p>Cameras, alarms, safes – protect your hard-earned (and freshly cleaned) cash and your secret spot.</p>
+                            </li>
+                        </ul>
+                        <h3>Spending Wisely: Your Upgrade Game Plan (Equipment Upgrade Strategy)</h3>
+                        <p>When and what to upgrade is a big business brain-teaser:</p>
+                        <ul>
+                            <li><strong>Bottleneck Busting:</strong> Find the slowest part of your operation. Washing too slow? Drying taking forever? Fake detection failing? Upgrade whatever's causing the biggest headache first.</li>
+                            <li><strong>Order Up!:</strong> Your upgrade path should match the jobs you're getting. More high-class clients demanding top-notch scanning? Time for a better scanner and beefier security.</li>
+                            <li><strong>Show Me the Money! (ROI):</strong> Weigh the cost of new gear against the expected payoff (more jobs, bigger jobs, fewer screw-ups).</li>
+                            <li><strong>The Fine Print (Maintenance Costs):</strong> Fancy machines often mean fancy upkeep and power bills. Factor that in!</li>
+                            <li><strong>Baby Steps:</strong> No need to buy the Rolls-Royce of washers on day one. Upgrade gradually as your business and bank balance grow.</li>
+                        </ul>
+                        <div class="important-tip">
+                            <p><strong>Teamwork Makes the Dream Work (for your machines!):</strong> Think about how your equipment works together. A super-fast washer needs a dryer and presser that can keep up, or you've just created a new bottleneck!</p>
+                        </div>
+                        <p class="mt-4">Mastering these tools is key. Once you're familiar with what's available, you'll be itching to <a href="cash-cleaner-simulator-download.html" title="Get the Game"><strong>get your hands on the game</strong></a> and put them to use!</p>
+                    </section>
+
+                    <section id="guide-advanced-strategies">
+                        <h2><span class="text-emerald-600">💡</span> Pro Tips & Tricks: Sudsational Strats!</h2>
+                        <p>Once you've got the basics down and your gear is looking snazzy, it's time to explore advanced tactics to max out your profits and become a legend in the... uh... "cleaning" community.</p>
+                        <h3>Efficiency is Everything (Maximizing Efficiency)</h3>
+                        <ul>
+                            <li><strong>Streamline Your Suds (Optimizing Your Workflow):</strong> Analyze your process. Can you cut steps or do things at the same time? E.g., manually prep the next batch while one is in the washer.</li>
+                            <li><strong>Bulk Up! (Batch Processing):</strong> Group similar bills (same value, same grime level) together. Less fiddling with machine settings means more speed.</li>
+                            <li><strong>Beat the Clock (Time Management):</strong> Some machines take time (looking at you, dryers!). Plan your tasks so nothing sits idle. Knowing how long each step takes helps you estimate job completion times.</li>
+                            <li><strong>Let the Robots Do It (Automation):</strong> Later in the game, you might unlock automated gear (conveyor belts, robot arms!). These are a godsend.
+                                <div class="steam-tip">Steam user RaGeFlash mentions a "No More Ink" method, hinting at a technique or upgrade to simplify a tricky ink-related problem. Even if the details are vague, it's a good reminder to look for those game-changing upgrades or tricks!</div>
+                            </li>
+                        </ul>
+                        <h3>Don't Get Soaked! (Managing Risks)</h3>
+                        <ul>
+                            <li><strong>Spotting Fakes & What to Do (Counterfeit Detection & Handling):</strong> This is a core risk in the cash cleaning biz.
+                                <ul>
+                                    <li><strong>Double (or Triple) Check:</strong> Don't rely on just one method. Combine visual checks (print quality, security strips, watermarks), feel, UV lights, and scanners.</li>
+                                    <li><strong>Stay Sharp:</strong> Counterfeiters are always "innovating." Keep an eye out for new fake features and detection tricks.</li>
+                                    <li><strong>The Protocol:</strong> Know the game's rules for dealing with fakes. Destroy? Report? Give back to the client (awkward!)? The wrong move could be costly.</li>
+                                </ul>
+                            </li>
+                            <li><strong>The Marked Money Menace (Dealing with Marked Bills):</strong>
+                                <ul>
+                                    <li><strong>Source Code (of the stain):</strong> Some marks are from bank dye packs. These are usually super tough to clean and super risky.</li>
+                                    <li><strong>Clean or Concede?:</strong> Weigh the cost and success chance of cleaning marked bills. Sometimes, bailing is the smart play to save resources and avoid trouble.</li>
+                                </ul>
+                                <div class="steam-tip">Player Dersh's "Locate Marked Bills Efficiently" and Graves' "Spotting marked bills early game" both highlight getting a jump on tagged cash. This suggests there might be clever ways to handle these headaches even without top-tier tech.</div>
+                            </li>
+                            <li><strong>Oops! My Bad... Or Not! (Preventing & Mitigating Operational Errors):</strong>
+                                <ul>
+                                    <li><strong>Stick to the Script (Standardized Procedures):</strong> Create and follow a standard operating procedure to reduce errors from carelessness (wrong soap, over-drying, etc.).</li>
+                                    <li><strong>Test Run:</strong> Before tackling a huge or unfamiliar batch, do a small test run to make sure your cleaning plan is safe and effective.</li>
+                                    <li><strong>Plan B (and C and D) (Contingency Plans):</strong> Be ready for common mishaps like equipment breakdowns or chemical spills.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h3>Keepin' 'Em Happy (and Quiet) (Client Relations & Reputation Management)</h3>
+                        <ul>
+                            <li><strong>Go the Extra Mile (Exceeding Expectations):</strong> Just meeting requirements is for amateurs. Deliver early, add a little extra polish (fancy bundling?), or offer "care tips" to boost satisfaction and loyalty.</li>
+                            <li><strong>Talk is Cheap (But Good Communication Isn't) (Communication is Key):</strong> For tricky orders or potential problems, a quick heads-up to the client (if the game allows) shows professionalism and can smooth things over.</li>
+                            <li><strong>Complaint Department (Handling Complaints):</strong> Even the best cleaners get complaints. Handle them calmly and professionally. A well-handled complaint can sometimes turn a frown upside down.</li>
+                            <li><strong>The Regulars (Building Long-Term Relationships):</strong> Good service brings repeat business and word-of-mouth referrals. Prioritize your loyal clients and maybe offer them a "friends and family" discount.</li>
+                            <li><strong>Your Name in Lights (or Shadows) (Maintaining Industry Reputation):</strong> In this business, your rep is everything. Avoid anything shady (skimming off the top, shoddy work, blabbing about clients).</li>
+                        </ul>
+                        <h3>Counting Your Clean Beans (Economy Management & Business Expansion)</h3>
+                        <ul>
+                            <li><strong>Penny Pinching (Accurate Cost Accounting):</strong> Track every supply (soap, power), equipment wear-and-tear, and labor (if you hire help) to know your real profit margins.</li>
+                            <li><strong>What's It Worth? (Pricing Strategy):</strong> Set your prices based on difficulty, risk, time, and what the market will bear. Rush jobs or special requests? Charge a premium!</li>
+                            <li><strong>Smart Spending (Wise Investments):</strong> Reinvest profits in better gear, a bigger lab, R&D, or staff. Every investment should boost efficiency, capacity, or reduce risk.</li>
+                            <li><strong>Branching Out (Diversification - If Applicable):</strong> Later, you might find other "cleaning-related" opportunities (restoring damaged documents, art cleaning?). Diversifying can mean more income and less risk.</li>
+                            <li><strong>Roll With the Punches (Adapting to Market Fluctuations):</strong> The game's economy might not be static. Material prices, client demand, even laws could change. Stay alert and flexible.</li>
+                        </ul>
+                         <div class="important-tip">
+                            <p><strong>Always Be Learning (ABL!):</strong> Cleaning tech and industry gossip are always evolving. Pay attention to in-game tips, news, or community chatter. Knowledge is power (and clean cash)!</p>
+                        </div>
+                    </section>
+                    
+                    <section id="guide-story-mode">
+                        <h2><span class="text-emerald-600">📜</span> Story Mode & Endings: The Plot (and Your Laundry) Thickens!</h2>
+                        <p>Cash Cleaner Simulator isn't just about repetitive scrubbing; it might just feature a gripping storyline that lets you gradually uncover the secrets of this underground world, beyond your daily "business," ultimately deciding your own fate.</p>
+                        <h3>Story Sneak Peek (Spoiler-Light, We Promise!)</h3>
+                        <p>You might have stumbled into the cash cleaning racket for various reasons – debts, an accident, or perhaps being "recruited" by a mysterious organization. Initially, you're probably handling small-time orders, but as your skills sharpen and your reputation grows, you'll rub shoulders with increasingly powerful clients, getting tangled in deeper conspiracies and conflicting interests.</p>
+                        <p>The game will likely introduce key characters: mentors, rivals, partners, or even potential nemeses. Your interactions with them will drive the plot forward and could sway your final ending.</p>
+                        <p>Mysteries you might need to unravel include:</p>
+                        <ul>
+                            <li>How and why did you get into this line of work?</li>
+                            <li>Who are your clients, really? What powers lurk behind them?</li>
+                            <li>How does this vast underground cash circulation network actually operate?</li>
+                            <li>Is there a chance to escape it all and return to a normal life? Or will you choose to become the monarch of this subterranean empire?</li>
+                        </ul>
+                        <h3>Choice & Consequence: Decisions That Shape Your Destiny</h3>
+                        <p>At critical story junctures, you'll likely face some hefty decisions. These choices won't just affect subsequent missions and plot twists; they could lead directly to different game endings. Possible decision paths might involve:</p>
+                        <ul>
+                            <li><strong>Loyalty vs. Betrayal:</strong> Will you stay true to your initial mentor or a powerful client, or will you backstab them for your own gain when the chips are down?</li>
+                            <li><strong>Cooperation vs. Confrontation:</strong> When dealing with other cleaners or rival factions, will you opt for a win-win collaboration, or see them as obstacles to be steamrolled?</li>
+                            <li><strong>Wealth vs. Morality:</strong> Faced with an order promising colossal profits but potentially violating your conscience, what's your price?</li>
+                            <li><strong>Expansion vs. Retirement:</strong> Do you dream of building an unprecedented cleaning empire, or will you cash out and vanish once you've made your pile?</li>
+                        </ul>
+                        <p>The game could feature multiple endings, such as:</p>
+                        <ul>
+                            <li><strong>The Kingpin Ending:</strong> You successfully control the entire city's cash cleaning operations, becoming the undisputed ruler of the underworld.</li>
+                            <li><strong>The Clean Getaway Ending:</strong> You cleverly amass a fortune and successfully evade all pursuit, starting a new, anonymous life.</li>
+                            <li><strong>The Busted Ending:</strong> Your sloppy work or a betrayal leads to your secret workshop being raided, and you end up behind bars.</li>
+                            <li><strong>The Mysterious Disappearance Ending:</strong> After a certain mission, you vanish without a trace, leaving behind only legends and unanswered questions.</li>
+                            <li><strong>The Legitimate Business Ending (If the game allows such wholesomeness!):</strong> Maybe there's a chance to apply your unique "talents" to legitimate ventures, becoming a true cleaning expert in a less... legally gray area?</li>
+                        </ul>
+                        <div class="important-tip">
+                            <p><strong>Clue Hunter:</strong> Story clues might be hidden in client dialogues, mission items, or even inconspicuous corners of your lab. Observe and analyze carefully to make choices that align with your desired outcome. Happy sleuthing!</p>
+                        </div>
+                    </section>
+
+                    <section id="guide-achievements">
+                        <h2><span class="text-emerald-600">🏆</span> Achievements Guide: Polish Up Your Bragging Rights!</h2>
+                        <p>For the perfectionists out there, unlocking every achievement is a deliciously fun challenge. Cash Cleaner Simulator likely throws a variety of achievements your way, rewarding your excellence in different, sudsy areas.</p>
+                        <p>Here's a speculative list based on Steam Community guides and common sim game achievement types (always check in-game for the real deal!):</p>
+                        
+                        <h3>Milestones & Progression Bling</h3>
+                        <ul>
+                            <li><strong>"First Suds" (First Steps):</strong> Complete your very first cleaning order. Welcome to the club!</li>
+                            <li><strong>"Ten Grand Cleaner" (Ten Thousand Club):</strong> Total cash cleaned hits 10,000. Small potatoes, big dreams!</li>
+                            <li><strong>"Moneybags Millionaire" (Millionaire Cleaner):</strong> Total cash cleaned reaches a cool 1,000,000. You're making it rain (clean cash)!</li>
+                            <li><strong>"Cleaning Connoisseur" (Master Cleaner):</strong> Successfully complete 100 orders. You've seen it all... or have you?</li>
+                            <li><strong>"Tool Time Titan" (Fully Equipped):</strong> Unlock and purchase every type of cleaning equipment. Your arsenal is complete!</li>
+                            <li><strong>"Lab Fab" (State-of-the-Art Lab):</strong> Upgrade your lab to its swankiest, top tier. Sparkle HQ!</li>
+                        </ul>
+
+                        <h3>Skill & Challenge Trophies</h3>
+                        <ul>
+                            <li><strong>"Absolutely Spotless" (Flawless Victory):</strong> Finish a high-difficulty order with 100% client satisfaction. Perfection!</li>
+                            <li><strong>"Counterfeit Crusher" (Eagle Eye):</strong> Successfully spot and remove all fake bills in an order (especially a large batch).</li>
+                            <li><strong>"Marked Money Maestro" (Marked Bill Specialist):</strong> Successfully clean 50 specially marked bills. Tricky business!</li>
+                            <li><strong>"Beat the Clock" (Speed Runner):</strong> Complete an urgent order within the nail-biting time limit.</li>
+                            <li><strong>"Ghost Protocol" (No Trace Left):</strong> Go 10 consecutive orders without any operational errors or getting rumbled. Ninja cleaner!</li>
+                            <li><strong>"The Uncleanable Cleaned" (The Impossible Clean):</strong> Successfully process an ultra-high difficulty order deemed nearly impossible. You legend!</li>
+                            <li><strong>"Out Of Bounds Explorer" (Out Of Bounds - ref: Steam Guide):</strong> Likely involves discovering hidden areas or exploiting a particular game mechanic. Sneaky!
+                                <div class="steam-tip">Player RaGeFlash offers a simple guide for the "Out Of Bounds Achievement," hinting it's related to exploration or a specific action.</div>
+                            </li>
+                            <li><strong>"Slam Dunk Kingpin" (Slam Dunk Kingpin - ref: Steam Guide):</strong> This achievement sounds hilariously awesome! Possibly related to a physics interaction (like dunking cash into a container) or hitting a massive profit target.
+                                <div class="steam-tip">Also from RaGeFlash, the "Slam Dunk Kingpin Cheese" guide suggests there might be a "cheesy" or unconventional way to bag this one.</div>
+                            </li>
+                        </ul>
+
+                        <h3>Story & Choice Accolades</h3>
+                        <ul>
+                            <li>Achievements will likely unlock based on your choices in the story and the different endings you achieve. E.g., "The Kingpin's Reign," "Shadowy Retirement," "Busted!" etc.</li>
+                        </ul>
+
+                        <h3>Collection & Exploration Medals</h3>
+                        <ul>
+                            <li><strong>"Secret Sleuth" (Secret Seeker):</strong> Find all hidden areas or collectibles in the game (if they exist).</li>
+                            <li><strong>"Master of Materials" (Tool Collector):</strong> Collect every type of cleaning tool and chemical. Gotta catch 'em all!</li>
+                        </ul>
+
+                        <h3>Fun & Easter Egg Badges</h3>
+                        <ul>
+                            <li><strong>"Will It Wash?" (Can This Be Cleaned?):</strong> Attempt to clean some... unconventional "items" (if the game lets you get weird).</li>
+                            <li><strong>"Tune Tycoon" (Music Lover):</strong> Unlock or play all background music tracks in the game. Groovy!</li>
+                            <li><strong>"Million Dollar Day" (Million in a Day):</strong> Make a million in profit in a single day. Baller!</li>
+                        </ul>
+                        <div class="important-tip">
+                            <p><strong>Community Power!:</strong> For those super tricky achievements, Steam Community Guides (like the ones referenced!) and player forums are goldmines for clues and strategies. Don't be shy to ask for help or share your own brilliant discoveries!</p>
+                        </div>
+                        <p>We'll keep an ear to the ground on the Steam Community and other channels, updating this guide as more concrete achievement info surfaces.</p>
+                    </section>
+
+                    <section id="guide-faq">
+                        <h2><span class="text-emerald-600">❓</span> FAQs: Burning Questions Answered!</h2>
+                        <p>Got questions? We've got (some) answers! Here are some common queries about Cash Cleaner Simulator. For anything else, feel free to check our <a href="index.html" title="Cash Cleaner Simulator Homepage"><strong>main website</strong></a> or join the community!</p>
+                        <details class="mb-4 p-4 border rounded-md bg-slate-50 hover:bg-slate-100 transition-colors">
+                            <summary class="font-semibold text-lg cursor-pointer text-sky-700">Q: My bills always come out dirty or damaged. What gives?</summary>
+                            <div class="mt-2 text-slate-700">
+                                <p>A: Ah, the classic cleaning conundrum! This usually boils down to a few culprits:</p>
+                                <ul>
+                                    <li><strong>Wrong Suds Syndrome:</strong> Make sure you're using the right detergent for the specific type of gunk. The wrong potion might do diddly-squat or even wreck the delicate paper.</li>
+                                    <li><strong>Machine Settings Mayhem:</strong> Check your washer, dryer, and other gizmo settings. Too hot, too long, too fast – any of these can lead to bill brutality. Peep the manual or do a small test batch.</li>
+                                    <li><strong>Pre-Wash Prep:</strong> Some stubborn stains are like clingy exes – they need a pre-soak or a good manual scrub before hitting the machines.</li>
+                                    <li><strong>Material Matters:</strong> Different bills (from different places or values) can be made of different stuff, meaning varying toughness. For unfamiliar paper, consult your notes or test gingerly.</li>
+                                    <li><strong>Grumpy Gear:</strong> Ensure your equipment is well-maintained and not on its last legs. Old or broken machines are disaster magnets.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <details class="mb-4 p-4 border rounded-md bg-slate-50 hover:bg-slate-100 transition-colors">
+                            <summary class="font-semibold text-lg cursor-pointer text-sky-700">Q: How do I get good at spotting and handling those pesky counterfeit bills?</summary>
+                            <div class="mt-2 text-slate-700">
+                                <p>A: Becoming a counterfeit crusher is a key skill. Here's the lowdown:</p>
+                                <ul>
+                                    <li><strong>Tool Up!:</strong> Invest in and upgrade your UV lights, fancy magnifiers, magnetic ink detectors, and those high-tech scanners. They'll help you see what the naked eye (or a nervous client) misses.</li>
+                                    <li><strong>Know Your Foe (Features, That Is):</strong> Learn the common security features of different currencies – watermarks, security threads, intaglio printing, color-shifting ink, microprinting, the works. The game might have in-game hints or a codex for this.</li>
+                                    <li><strong>Trust, but Verify (Multiple Times):</strong> Don't rely on just one feature. Cross-reference several security points for a solid verdict.</li>
+                                    <li><strong>Feel & Sound Check:</strong> Real bills often have a unique texture and a crisp sound when flicked. This takes practice to master, like a secret handshake with money.</li>
+                                    <li><strong>The Protocol for Phonies:</strong> Once you've ID'd a fake, follow the game's rules. Usually, this means isolating it to avoid contaminating your legit loot. Some jobs might require you to hand over or destroy the fakes.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <details class="mb-4 p-4 border rounded-md bg-slate-50 hover:bg-slate-100 transition-colors">
+                            <summary class="font-semibold text-lg cursor-pointer text-sky-700">Q: My cash flow is more like a trickle! Any tips for making bank faster?</summary>
+                            <div class="mt-2 text-slate-700">
+                                <p>A: Time to turn that trickle into a torrent! Boosting profits takes strategy:</p>
+                                <ul>
+                                    <li><strong>Attack the Bottlenecks:</strong> Identify the slowest part of your operation (washing, drying, scanning, etc.) and upgrade that equipment first to boost overall throughput.</li>
+                                    <li><strong>Go for the Gold (Tier Jobs):</strong> As your rep grows, you'll unlock higher-paying gigs. Within your capabilities, prioritize jobs with the juiciest profit margins.</li>
+                                    <li><strong>Penny-Pinching Pro:</strong> Use consumables like detergents wisely – no need to go overboard. Keep an eye on energy costs and machine maintenance.</li>
+                                    <li><strong>Happy Clients, Happy Life (and Wallet):</strong> High satisfaction scores bring repeat customers and good word-of-mouth, leading to more jobs and maybe even bonuses.</li>
+                                    <li><strong>Challenge Accepted (and Rewarded):</strong> Some challenges and achievements offer cash prizes or efficiency-boosting rewards. Don't ignore 'em!</li>
+                                    <li><strong>Event Horizon Hustle:</strong> The game might feature timed special events or high-reward missions. Seize those opportunities!</li>
+                                    <li><strong>Dodge Those Fines:</strong> Penalties for errors, late deliveries, or shoddy quality will torpedo your income. Precision pays!</li>
+                                </ul>
+                                <div class="steam-tip">The existence of the "Slam Dunk Kingpin" achievement hints there might be a "fast track" or highly efficient strategy for wealth accumulation in the game. Worth investigating!</div>
+                            </div>
+                        </details>
+                        
+                        <details class="mb-4 p-4 border rounded-md bg-slate-50 hover:bg-slate-100 transition-colors">
+                            <summary class="font-semibold text-lg cursor-pointer text-sky-700">Q: How do I unlock new tools and shiny equipment?</summary>
+                            <div class="mt-2 text-slate-700">
+                                <p>A: Generally, you can get your mitts on new gear through a few routes:</p>
+                                <ul>
+                                    <li><strong>Level Up, Buttercup (XP & Progression):</strong> Completing orders and gaining experience can level up your character or workshop, unlocking new purchase options.</li>
+                                    <li><strong>Research & Riches (R&D System):</strong> The game might have an R&D system where you invest cash and time to research new tech, unlocking advanced equipment.</li>
+                                    <li><strong>Story Unlocks:</strong> Progressing through the main storyline might unlock specific high-end tools or lab modules.</li>
+                                    <li><strong>Special Mission Swag:</strong> Some unique equipment could be rewards for completing particular tasks or challenges.</li>
+                                    <li><strong>Shop 'Til You Drop (In-Game Store):</strong> Once unlocked, you'll need to splash the cash in the in-game store to actually buy these new toys.</li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <details class="mb-4 p-4 border rounded-md bg-slate-50 hover:bg-slate-100 transition-colors">
+                            <summary class="font-semibold text-lg cursor-pointer text-sky-700">Q: What's the deal with "Marked Bills"? How should I handle 'em?</summary>
+                            <div class="mt-2 text-slate-700">
+                                <p>A: Marked bills usually mean cash that's been tagged by bank dye packs or other tracking devices. This dye is a nightmare to remove, and the origin of such bills is often... sensitive.</p>
+                                <ul>
+                                    <li><strong>Spotting Them:</strong> Look for obvious, unnatural stains (bright red, blue, green, etc.). Advanced scanners can detect chemical markers more accurately.</li>
+                                    <li><strong>The Cleaning Challenge:</strong> Cleaning these bills is extremely tough, with a low success rate, and often requires special chemicals and procedures.</li>
+                                    <li><strong>Risk Factor:</strong> Handling marked bills is also riskier. Clients might have specific (and demanding) requirements for them, or authorities (if the game has them) might frown heavily upon such activities.</li>
+                                    <li><strong>Strategic Approach:</strong>
+                                        <div class="steam-tip">The Steam Community has players sharing tips on early identification and efficient handling of marked bills. This suggests there might be specific methods in-game to tackle these, or at least help you decide early if it's worth the effort.</div>
+                                        Without solid confidence and top-tier equipment, sometimes refusing or very cautiously handling marked bill orders is the smarter play.
+                                    </li>
+                                </ul>
+                            </div>
+                        </details>
+                         <div class="mt-6 important-tip">
+                           <p><strong>Still have questions?</strong> Don't forget to check the <a href="index.html#faq-section" title="Main Page FAQ"><strong>FAQ section on our homepage</strong></a> for more general game information, or see if the <a href="news.html" title="Game Updates"><strong>latest news</strong></a> has what you need!</p>
+                        </div>
+                    </section>
+
+                    <section id="guide-community">
+                        <h2><span class="text-emerald-600">🤝</span> Community: Join the Clean Crew!</h2>
+                        <p>The world of cash cleaning can be a lonely one... but it doesn\'t have to be! Connect with fellow launderers... er, cleaners! Share your best tips, epic fails, and perfectly stacked piles of... purified currency. Find us on:</p>
+                        <ul>
+                            <li><strong>Discord:</strong> Join the official <a href="https://discord.gg/youractualdiscordlink" target="_blank" rel="noopener noreferrer">Cash Cleaner Simulator Discord Server</a> to chat in real-time, ask questions, and participate in community events.</li>
+                            <li><strong>Steam Community Hub:</strong> Visit the <a href="https://steamcommunity.com/app/2488370/discussions/" target="_blank" rel="noopener noreferrer">Steam Community Hub</a> to find guides, discussions, and share screenshots.</li>
+                            <li><strong>Twitter:</strong> Follow <a href="https://twitter.com/CashCleanerGame" target="_blank" rel="noopener noreferrer">@CashCleanerGame</a> for the latest announcements and sneak peeks.</li>
+                            <li><strong>Reddit (if applicable):</strong> Check out the (hypothetical) r/CashCleanerSim subreddit for more fan discussions.</li>
+                        </ul>
+                        <p class="mt-4">And always remember, for the most up-to-date information, our <a href="index.html" title="Official Website"><strong>official website (the homepage!)</strong></a> and the <a href="news.html" title="News Page"><strong>news section</strong></a> are your best friends.</p>
+                    </section>
+                    
+                    <p class="mt-12 text-center text-slate-500 italic">This guide will be continuously updated based on game developments and community feedback. Happy cleaning, and may your profits soar!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-8 bg-slate-800 border-t border-slate-700">
+        <div class="container mx-auto px-4 sm:px-6 text-center text-slate-400">
+            <div class="mb-4">
+                <img alt="Cash Cleaner Simulator Logo" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" style="color:transparent" src="images/ccs_logo.png" class="mx-auto mb-2"/>
+                <p class="text-lg font-semibold text-slate-100">Cash Cleaner Simulator</p>
+            </div>
+            <div class="flex justify-center gap-4 mb-4">
+                <a href="https://twitter.com/CashCleanerGame" target="_blank" rel="noopener noreferrer" class="hover:text-sky-400 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                    <span class="sr-only">Twitter</span>
+                </a>
+                <a href="https://discord.gg/cashcleanersimulator" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-400 transition-colors">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-discord"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M9.5 9.5c.828 0 1.5-.672 1.5-1.5S10.328 6.5 9.5 6.5 8 7.172 8 8s.672 1.5 1.5 1.5z"></path><path d="M14.5 9.5c.828 0 1.5-.672 1.5-1.5S15.328 6.5 14.5 6.5 13 7.172 13 8s.672 1.5 1.5 1.5z"></path><path d="M16.5 14.5s-1.5-2-4.5-2-4.5 2-4.5 2"></path></svg>
+                    <span class="sr-only">Discord</span>
+                </a>
+                <a href="https://www.youtube.com/watch?v=e50X0KohJOs" target="_blank" rel="noopener noreferrer" class="hover:text-red-500 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17z"></path><path d="m10 15 5-3-5-3z"></path></svg>
+                    <span class="sr-only">YouTube</span>
+                </a>
+            </div>
+            <div class="text-sm mb-2">
+                <a href="privacy.html" class="hover:text-slate-200 transition-colors">Privacy Policy</a> | 
+                <a href="terms.html" class="hover:text-slate-200 transition-colors">Terms of Service</a> | 
+                <a href="contact.html" class="hover:text-slate-200 transition-colors">Contact Us</a>
+            </div>
+            <p class="text-xs">&copy; 2025 Cash Cleaner Simulator. All rights reserved. cashcleanerSimulator.org</p>
+            <p class="text-xs mt-1">This is a fan community website. Cash Cleaner Simulator is developed by Mind Control Games and published by Forklift Interactive and Digital Pajamas.</p>
+        </div>
+    </footer>
+    <script>
+        // Smooth scroll for internal links & active section highlighting
+        document.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('.guide-nav a[href^="#"]');
+            const sections = document.querySelectorAll('.guide-content section');
+            const navLinks = Array.from(document.querySelectorAll('.guide-nav a'));
+            const headerElem = document.querySelector('header'); // Cache header element
+
+            links.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        const headerOffset = headerElem ? headerElem.offsetHeight + 20 : 70; // Fallback offset
+                        const elementPosition = targetElement.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: "smooth"
+                        });
+                    }
+                });
+            });
+
+            function onScroll() {
+                let currentSectionId = '';
+                const headerHeight = headerElem ? headerElem.offsetHeight + 100 : 150; // Leeway for active section
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - headerHeight;
+                    if (window.pageYOffset >= sectionTop) {
+                        currentSectionId = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(navLink => {
+                    navLink.classList.remove('active-section');
+                    if (navLink.getAttribute('href') === `#${currentSectionId}`) {
+                        navLink.classList.add('active-section');
+                    }
+                });
+                
+                // Fallback for the top of the page if no section is active yet (e.g. overview is visible)
+                 if (!currentSectionId && sections.length > 0 && window.pageYOffset < sections[0].offsetTop - headerHeight) {
+                     if(navLinks.length > 0 && navLinks[0].getAttribute('href') === '#guide-introduction') {
+                         navLinks[0].classList.add('active-section');
+                     }
+                 }
+            }
+
+            window.addEventListener('scroll', onScroll);
+            onScroll(); // Initial check
+
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+                    mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+    <!-- <script src="js/script.js" defer></script> --> <!-- Assuming script.js is not crucial for guide page specific functionality or handled above -->
+</body>
+</html> 
